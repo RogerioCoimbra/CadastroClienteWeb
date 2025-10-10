@@ -59,114 +59,11 @@ if(isset($_REQUEST['submit']) and $_REQUEST['submit']!=""){
 	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 
 	<![endif]-->
-
-	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-	<script>
-
-	  (adsbygoogle = window.adsbygoogle || []).push({
-
-		google_ad_client: "ca-pub-6724419004010752",
-
-		enable_page_level_ads: true
-
-	  });
-
-	</script>
-
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131906273-1"></script>
-
-	<script>
-
-	  window.dataLayer = window.dataLayer || [];
-
-	  function gtag(){dataLayer.push(arguments);}
-
-	  gtag('js', new Date());
-
-	  gtag('config', 'UA-131906273-1');
-
-	</script>
-
 </head>
 
 
 
 <body>
-
-	
-
-	<div class="bg-light border-bottom shadow-sm sticky-top">
-
-		<div class="container">
-
-			<header class="blog-header py-1">
-
-				<nav class="navbar navbar-expand-lg navbar-light bg-light"> <a class="navbar-brand text-muted p-0 m-0" href="#"></a> <!--caso queira adiciona imagem so muda campo acima--->
-
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-
-					<div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-
-
-
-                            <!---caso queira adiciona menu de navegaçao adicona aqui---->
-
-
-
-						<form method="get" action="#" class="form-inline my-2 my-lg-0">
-
-							<div class="input-group input-group-md">
-<!---<input type="text" class="form-control search-width" name="s" id="search" value="" placeholder="pesquisa barra menu de navegaçao..." aria-label="Search">--->
-                            <div class="input-group-append">
-									<!----<button type="submit" class="btn btn-primary" id="searchBtn"><i class="fa fa-search"></i></button> botao simbulo da lupa--->
-
-								</div>
-
-							</div>
-
-						</form>
-
-					</div>
-
-				</nav>
-
-			</header>
-
-		</div> <!--/.container-->
-
-	</div>
-
-	<div class="container my-4">
-
-		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-		<!-- demo top banner -->
-
-		<ins class="adsbygoogle"
-
-			 style="display:block"
-
-			 data-ad-client="ca-pub-6724419004010752"
-
-			 data-ad-slot="6737619771"
-
-			 data-ad-format="auto"
-
-			 data-full-width-responsive="true"></ins>
-
-		<script>
-
-		(adsbygoogle = window.adsbygoogle || []).push({});
-
-		</script>
-
-	</div>
-
-	
 
    	<div class="container">
 
@@ -200,7 +97,7 @@ if(isset($_REQUEST['submit']) and $_REQUEST['submit']!=""){
 
 		<div class="card">
 
-			<div class="card-header"><i class="fa fa-fw fa-plus-circle"></i> <strong>Cadastrar cliente</strong> <a href="browse-dadoscliente.php" class="float-right btn btn-dark btn-sm"><i class="fa fa-fw fa-globe"></i> Procurar clientes</a></div>
+			<div class="card-header"><i class="fa fa-fw fa-plus-circle"></i> <strong>Cadastrar cliente</strong> <a href="browse-users.php" class="float-right btn btn-dark btn-sm"><i class="fa fa-fw fa-globe"></i> Procurar clientes</a></div>
 
 			<div class="card-body">
 
