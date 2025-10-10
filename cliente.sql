@@ -21,3 +21,7 @@ INSERT INTO `dadoscliente` (`id`, `nome`, `email`, `telefone`, `dt`) VALUES
 (3, 'Jose Santos Silva', 'teste@gmail.com', '(62) 99888-8888', '2022-07-04 22:38:12'),
 (4, 'Matheusaa', 'testematheus@gmail.com', '(62) 99777-7777', '2022-07-04 22:39:41'),
 (5, 'Jorge', 'jorgeteste@gmail.com', '(62) 99333-3333', '2022-07-04 22:55:31');
+
+CREATE USER 'crud'@'%' IDENTIFIED BY '9kjThhnVcXJP';
+GRANT ALL PRIVILEGES ON cliente.* TO 'crud'@'%';
+FLUSH PRIVILEGES;
