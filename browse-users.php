@@ -138,7 +138,7 @@
 			<table class="table table-striped table-bordered">
 				<thead>
 					<tr class="bg-primary text-white">
-					    <!--<th>Sr#</th>---> 
+					    <!-- <th>Sr#</th> -->
 						<th>ID</th> <!----nome dos campos da tabela exemplo nome  idade  e-maail da tabela crud editar e deletar--->
 						<th>Nome do cliente</th>
 						<th>E-mail do cliente</th>
@@ -150,12 +150,12 @@
 				<tbody>
 					<?php 
 					if(count($userData)>0){
-						$s	=	'';
+						$s	=	0;
 						foreach($userData as $val){
 							$s++;
 					?>
 					<tr>
-						<!--<td><php echo $s;?></td>--->
+						<!-- <td><?php echo $s;?></td> -->
 						<td><?php echo $val['id'];?></td>
 						<td><?php echo $val['nome'];?></td>
 						<td><?php echo $val['email'];?></td>
