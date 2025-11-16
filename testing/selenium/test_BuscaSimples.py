@@ -34,7 +34,9 @@ class TestBuscaCompleta():
     self.driver.find_element(By.ID, "nome").click()
     # 4 | type | id=nome | Jorge
     self.driver.find_element(By.ID, "nome").send_keys("Ma")
-        # 5 | click | id=email | 
+    
+    '''
+    # 5 | click | id=email | 
     self.driver.find_element(By.ID, "email").click()
     # 6 | type | id=email | jorgeteste@gmail.com
     self.driver.find_element(By.ID, "email").send_keys("RogerioCoimbra@gmail.com")
@@ -50,5 +52,8 @@ class TestBuscaCompleta():
     self.driver.find_element(By.ID, "dt").click()
     # 12 | type | id=dt | 2025-01-01
     self.driver.find_element(By.ID, "dt").send_keys("2025-01-01")
+    '''
+    
     # 13 | click | css=#submit > .fa | 
     self.driver.find_element(By.CSS_SELECTOR, "#submit > .fa").click()
+  
