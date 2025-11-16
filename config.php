@@ -2,7 +2,7 @@
 
 require_once __DIR__.'/include/Database.php';
 
-$host = getenv('DB_HOST') ?: '192.168.10.186';
+$host = getenv('DB_HOST') ?: '192.168.10.101';
 $port = getenv('DB_PORT') ?: '3306';
 $db   = getenv('DB_NAME') ?: 'cliente';
 $user = getenv('DB_USER') ?: 'crud';
