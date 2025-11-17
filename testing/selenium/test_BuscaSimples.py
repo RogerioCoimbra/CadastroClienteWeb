@@ -1,20 +1,11 @@
 # Importa o framework de testes pytest
 import pytest
 
-# Importa a biblioteca para trabalhar com tempo
-import time
-
-# Importa a biblioteca para trabalhar com JSON
-import json
-
 # Importa o módulo do Selenium para controlar o navegador
 from selenium import webdriver
 
 # Importa o módulo para localizar elementos na página pelo tipo (ID, CSS, etc.)
 from selenium.webdriver.common.by import By
-
-# Importa o módulo para realizar ações como cliques e movimentos do mouse
-from selenium.webdriver.common.action_chains import ActionChains
 
 # Importa o módulo para trabalhar com condições esperadas (ex.: esperar que um elemento esteja visível)
 from selenium.webdriver.support import expected_conditions
@@ -24,9 +15,6 @@ from selenium.webdriver.support.wait import WebDriverWait
 
 # Importa o módulo para simular pressionamento de teclas no teclado
 from selenium.webdriver.common.keys import Keys
-
-# Importa o módulo para configurar capacidades desejadas do navegador
-from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
 # Define uma classe para agrupar os testes
 class TestBuscaCompleta():
